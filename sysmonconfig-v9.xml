@@ -683,6 +683,8 @@
       <TargetObject condition="end with" name="undefined">\PsShutDown\EulaAccepted</TargetObject>
       <TargetObject condition="contains" name="technique_id=T1122,technique_name=Component Object Model Hijacking">Software\Classes\CLSID</TargetObject>
       <TargetObject condition="contains" name="technique_id=T1060,technique_name=Registry Run Keys / Start Folder">\Policies\Explorer\Run</TargetObject>
+      <TargetObject condition="contains" name="technique_id=T1193,technique_name=Spearphishing Attachment">Security\Trusted Documents\TrustRecords</TargetObject>
+      <TargetObject condition="contains" name="technique_id=T1193,technique_name=Spearphishing Attachment">Software\Microsoft\VBA\7.1\Common</TargetObject>
     </RegistryEvent>
 </RuleGroup>    
 <RuleGroup name="" groupRelation="or">
